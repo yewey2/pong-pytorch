@@ -8,4 +8,6 @@ pip install -r requirements.txt -f https://download.pytorch.org/whl/cu113/torch_
 
 Once installed, you can run training code under `pong_main.py`, or the testing code under `pong_test.py`.
 
+In `pong_test.py`, you can change the file to run on line 17, by inputing the file name. The default file is `pong_best.hdf5`.
+
 To show the game itself, go to `Env.py`, and change `RENDERING = True` (line 3).
